@@ -1,2 +1,3 @@
-# Japan1
-Created with CodeSandbox
+Welcome to Shopping in Japan! In this webesite your taking to a wonderful view of Fuji as you calculate the compounding interest of anything you are curious about. There is some fun little additons like a spinny cherry blossom and dancing toothless. Not only that but when you hover over some of the elements you might get a little suprise! Such as the dancing toothless spinning and the transitions in the summary fo how much you owe and when you input your values.
+
+The app is deployed here: https://m9q6nq.csb.app/

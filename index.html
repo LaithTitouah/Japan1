@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shopping in Japan!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="cherry-blossoms-6383-256.gif" />
+    <link rel="toothless dancing.gif" />
+  </head>
+  <body>
+    <header id="mainheader">
+      <div id="headWords"><h1>Shopping in Japan!!</h1></div>
+      <div id="Icon"><img src="assests/cherry.gif" /></div>
+      <link
+        href="https://fonts.googleapis.com/css?family=Nerko One"
+        rel="stylesheet"
+      />
+    </header>
+
+    <main>
+      <div id="CICalc">
+        <span class="span-title">Inital Amount $ </span>
+        <input id="Principal" type="number" class="inputs" />
+        <span class="span-title"> Rate of Interest </span>
+        <div>
+          <input
+            id="interest"
+            type="range"
+            min="0.25"
+            max="50"
+            value="2.5"
+            step="0.25"
+          /><output id="interestText" class="span-title"> 2.5</output>
+        </div>
+        <span class="span-title"> Time </span>
+        <input id="compounded_interest" type="number" class="inputs" />
+        <span class="span-title"> Total Years </span>
+        <select id="time" class="inputs">
+          <option value="360">Daily</option>
+          <option value="12">Monthly</option>
+          <option value="4">Quarterly</option>
+          <option value="1">Yearly</option>
+        </select>
+      </div>
+      <div id="summary">
+        <div>
+          <p>Amount from Interest: <output id="totalInterest"> </output></p>
+          <p>Total Amount Owed: <output id="result"> </output></p>
+        </div>
+      </div>
+      <div id="toothless"><img src="assests/toothless dancing.gif" /></div>
+    </main>
+    <footer>
+      <div>© 2024</div>
+      <div>
+        <a
+          href="https://codesandbox.io/p/sandbox/shoppinginjapan-m9q6nq?file=%2Fstyles.css%3A99%2C9"
+        >
+          My Code!</a
+        >
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

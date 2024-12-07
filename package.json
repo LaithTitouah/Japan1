@@ -1,0 +1,15 @@
+{
+  "name": "ShoppinginJapan!!",
+  "version": "1.0.0",
+  "description": "A calculator to calculate compound interest",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s"
+  },
+  "keywords": ["html", "css", "calculator"],
+  "author": "Laith Titouah",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "11.2.0"
+  }
+}
